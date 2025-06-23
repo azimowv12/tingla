@@ -175,9 +175,9 @@ body {
   margin-bottom: 170px;
 }
 
-.five_left {
+/* .five_left {
   padding: 0px 60px;
-}
+} */
 
 .five_right {
   display: flex;
@@ -289,6 +289,10 @@ body {
     margin-bottom: 28px;
   }
 
+  .hero_right img {
+    width: 100%;
+  }
+
   .hero_left button {
     width: 151px;
     height: 60px;
@@ -342,6 +346,7 @@ body {
   }
 
   .two_right img {
+    width: 100%;
     margin-top: -156px;
   }
 
@@ -358,6 +363,10 @@ body {
     line-height: 100%;
     letter-spacing: -1%;
     margin-bottom: 16px;
+  }
+
+  .three_left img {
+    width: 100%;
   }
 
   .three_right p {
@@ -391,6 +400,7 @@ body {
   }
 
   .four_content img {
+    width: 100%;
     margin-top: -156px;
   }
 
@@ -401,8 +411,8 @@ body {
     flex-direction: column;
   }
 
-  .five_right img {
-    width: 302px;
+  .five_left img {
+    width: 100%;
     height: max-content;
 
   }
